@@ -1,0 +1,15 @@
+img{
+    width: 480px;
+    height: 500px;
+}
+
+
+#carouselExample{
+    justify-content: center;
+    display: flex;
+}
+
+
+.carousel-control-prev-icon,.carousel-control-next-icon{
+    filter: invert(23%) sepia(11%) saturate(3492%) hue-rotate(156deg) brightness(93%) contrast(95%);
+}

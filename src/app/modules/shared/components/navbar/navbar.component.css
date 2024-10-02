@@ -1,0 +1,9 @@
+mat-toolbar{
+    background-color: black;
+    color: antiquewhite;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.example-spacer {
+    flex: 1 1 auto;
+  }

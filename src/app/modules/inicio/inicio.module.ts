@@ -2,22 +2,29 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 import { InicioRoutingModule } from './inicio-routing.module';
-import { InicioComponent } from './pages/inicio/inicio.component';
+
+//Componentes locales
 import { CarouselComponent } from './components/carousel/carousel.component';
+import { NosotrosComponent } from './components/nosotros/nosotros.component';
+
+//Vistas locales
+import { MainComponent } from './pages/main/main.component';
 
 
 @NgModule({
   declarations: [
-    InicioComponent,
-    CarouselComponent
+    CarouselComponent,
+    NosotrosComponent,
+    MainComponent
   ],
   imports: [
     CommonModule,
     InicioRoutingModule
   ],
-  exports: [
-    InicioComponent,
-    CarouselComponent
+  exports:[
+    CarouselComponent,
+    NosotrosComponent,
+    MainComponent
   ]
 })
 export class InicioModule { }
