@@ -12,6 +12,9 @@ const routes: Routes = [
   //Carga perezosa
   {
     path:"",loadChildren:()=>import('./modules/inicio/inicio.module').then(m=>m.InicioModule)
+  },
+  {
+    path:"",loadChildren:()=>import('./modules/auth/auth.module').then(m=>m.AuthModule)
   }
 ];
 
