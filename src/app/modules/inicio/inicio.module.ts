@@ -3,6 +3,8 @@ import { CommonModule } from '@angular/common';
 
 import { InicioRoutingModule } from './inicio-routing.module';
 
+import { SwiperModule } from 'swiper/angular';
+
 //Componentes locales
 import { CarouselComponent } from './components/carousel/carousel.component';
 import { NosotrosComponent } from './components/nosotros/nosotros.component';
@@ -19,12 +21,14 @@ import { MainComponent } from './pages/main/main.component';
   ],
   imports: [
     CommonModule,
-    InicioRoutingModule
+    InicioRoutingModule,
+    SwiperModule
   ],
   exports:[
     CarouselComponent,
     NosotrosComponent,
-    MainComponent
+    MainComponent,
+    SwiperModule
   ]
 })
 export class InicioModule { }

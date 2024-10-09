@@ -1,7 +1,16 @@
+
 img{
     width: 480px;
     height: 500px;
 }
+
+/* img {
+    border-radius: var(--bs-border-radius) !important;
+    width: 100% !important;
+    display: block !important;
+    object-fit: scale-down;
+    padding: 0px;
+} */
 
 
 #carouselExample{
