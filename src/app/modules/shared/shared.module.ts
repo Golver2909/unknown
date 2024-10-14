@@ -12,6 +12,8 @@ import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatMenuModule} from '@angular/material/menu';
 import {MatSidenavModule} from '@angular/material/sidenav';
 
+//Rutas generales del proyecto
+import { AppRoutingModule } from 'src/app/app-routing.module';
 
 @NgModule({
   declarations: [
@@ -24,7 +26,8 @@ import {MatSidenavModule} from '@angular/material/sidenav';
     MatIconModule,
     MatToolbarModule,
     MatMenuModule,
-    MatSidenavModule
+    MatSidenavModule,
+    AppRoutingModule
   ],
   exports:[
     NavbarComponent,
